@@ -1,0 +1,7 @@
+nome = str(input('Qual o seu nome completo?:'))
+print('NOME: {}'.format(nome.upper()))
+print('nome: {}'.format(nome.lower()))
+div = nome.split()
+joint = ''.join(div)
+print('O total de caractéres é: {}'.format(len(joint)))
+print('O primeiro nome tem {} caractéres.'.format(len(div[0])))
