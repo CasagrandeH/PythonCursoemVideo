@@ -1,5 +1,0 @@
-times = ('PAL', 'INT', 'FLU', 'COR', 'FLA', 'CAP', 'CAM', 'FOR', 'SPL', 'AMG', 'BOT', 'SAN', 'GOI', 'BRG', 'CFC', 'CUI', 'CEA', 'ATG', 'AVA', 'JUV')
-print(f'Os 5 primeiros colocados são: {times[0:5]}.')
-print(f'Os 4 ultimos colocados são: {times[-1:-5:-1]}')
-print(f'Em ordem alfbética a lista é:\n{sorted(times)}')
-print(f'A posição do Flamengo é: {times.index("FLA") + 1}º lugar')
